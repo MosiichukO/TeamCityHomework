@@ -11,7 +11,7 @@
     <properties>
         <!-- Test Run Configuration =========================================-->
         <parallel.tag1>@petsTests</parallel.tag1>
-        <fork.count>2</fork.count>
+        <fork.count>3</fork.count>
         <!--=================================================================-->
         <parallel.scheme>FEATURE</parallel.scheme>
         <scenario.folder>src/test/resources/</scenario.folder>

@@ -6,6 +6,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import entities.Category;
 import entities.Pet;
+import io.qameta.allure.Allure;
 import io.restassured.http.ContentType;
 import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.response.Response;
@@ -35,6 +36,7 @@ public class PetSteps {
                 .status("available")
                 .build();
         System.out.println("Body to send: " + new Gson().toJson(petToAdd));
+        Allure.addAttachment("Pet data", new Gson().toJson(petToAdd));
 
         response = given()
                 .baseUri(BASE_URL)
@@ -74,6 +76,7 @@ public class PetSteps {
 
     @Then("^I validate JSON Schema of received response$")
     public void iValidateJSONSchemaOfReceivedResponse() {
+        Allure.addAttachment("Response", response.asString());
         response.then().body(JsonSchemaValidator.matchesJsonSchemaInClasspath("PetSchema.json"));
         Pet changedPetFromResponse = response.as(Pet.class);
         Assert.assertEquals("Wrong new name of pet", petToAdd.getName(), changedPetFromResponse.getName());

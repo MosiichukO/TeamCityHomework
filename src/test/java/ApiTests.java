@@ -2,6 +2,7 @@ import com.google.gson.Gson;
 import entities.Category;
 import entities.Pet;
 import io.restassured.http.ContentType;
+import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.response.Response;
 import org.junit.Assert;
 import org.junit.Test;
@@ -58,7 +59,7 @@ public class ApiTests {
                 .category(catCategory)
                 .name("Jozzy")
                 .photoUrls(Collections.singletonList("urls"))
-                .tags(null)
+                .tags(Collections.singletonList(catCategory))
                 .status("available")
                 .build();
         System.out.println("Body to send: " + new Gson().toJson(petToAdd));
@@ -77,15 +78,18 @@ public class ApiTests {
         long petId = addedPetResponse.getId();
 
         petToAdd.setName("Qwerty");
-        Pet changedPet = petToAdd;
 
+        System.out.println("Change info about pet with validating json schema");
         Response changePetIdResponse = given()
                 .baseUri(BASE_URL)
                 .basePath("/pet")
                 .contentType(ContentType.JSON)
-                .body(changedPet)
+                .body(petToAdd)
                 .when()
-                .put();
+                .put()
+                .then()
+                .assertThat()
+                .body(JsonSchemaValidator.matchesJsonSchemaInClasspath("PetSchema.json")).extract().response();
 
         Pet changedPetFromResponse = changePetIdResponse.as(Pet.class);
 

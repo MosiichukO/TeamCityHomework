@@ -51,7 +51,7 @@ public class ApiTests {
 
     @Test
     public void changeInfoAboutPet() {
-        Category catCategory = new Category(131231231, "Cats");
+        Category catCategory = new  Category(131231231, "Cats");
 
         System.out.println("I preparing test data...");
         Pet petToAdd = Pet.builder()

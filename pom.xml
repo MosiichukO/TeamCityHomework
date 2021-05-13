@@ -23,13 +23,6 @@
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
-    <pluginRepositories>
-        <pluginRepository>
-            <id>JetBrains</id>
-            <url>https://download.jetbrains.com/teamcity-repository</url>
-        </pluginRepository>
-    </pluginRepositories>
-
     <dependencies>
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -109,14 +102,6 @@
     </dependencies>
     <build>
         <plugins>
-            <plugin>
-                <groupId>org.jetbrains.teamcity</groupId>
-                <artifactId>teamcity-sdk-maven-plugin</artifactId>
-                <version>0.4</version>
-                <configuration>
-                    <teamcityDir>/path/to/tc/distro</teamcityDir> <!-- optional -->
-                </configuration>
-            </plugin>
             <plugin>
                 <groupId>com.github.temyers</groupId>
                 <artifactId>cucumber-jvm-parallel-plugin</artifactId>

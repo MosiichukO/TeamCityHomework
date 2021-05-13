@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Wed May 12 17:37:55 EEST 2021","Wed May 12 17:37:56 EEST 2021","1684","","Change info about the pet","","Change info about the pet","","Change info about the pet",""
+"failed","Wed May 12 17:37:56 EEST 2021","Wed May 12 17:37:59 EEST 2021","2121","","Change info about the pet","","Change info about the pet","","Change info about the pet",""
+"passed","Wed May 12 17:37:42 EEST 2021","Wed May 12 17:37:52 EEST 2021","9916","","Add new pet to the store","","Add new pet to the store","","Add new pet to the store",""
+"failed","Wed May 12 17:38:00 EEST 2021","Wed May 12 17:38:02 EEST 2021","1689","","Change info about the pet","","Change info about the pet","","Change info about the pet",""
+"failed","Wed May 12 17:37:59 EEST 2021","Wed May 12 17:38:00 EEST 2021","1682","","Change info about the pet","","Change info about the pet","","Change info about the pet",""
+"failed","Wed May 12 17:37:43 EEST 2021","Wed May 12 17:37:55 EEST 2021","11989","","Change info about the pet","","Change info about the pet","","Change info about the pet",""

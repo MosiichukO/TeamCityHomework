@@ -1,0 +1,99 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Add new pet to the store",
+    "children" : [ {
+      "name" : "Add new pet to the store",
+      "children" : [ {
+        "name" : "Add new pet to the store",
+        "uid" : "c3228f4818ce9328",
+        "parentUid" : "1ba866db388489874c6425ac529800ea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620830262756,
+          "stop" : 1620830272672,
+          "duration" : 9916
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1ba866db388489874c6425ac529800ea"
+    } ],
+    "uid" : "d2745869ec950f5f49c6cc5f0b56a78b"
+  }, {
+    "name" : "Change info about the pet",
+    "children" : [ {
+      "name" : "Change info about the pet",
+      "children" : [ {
+        "name" : "Change info about the pet",
+        "uid" : "e61e7ede897a24a0",
+        "parentUid" : "6cdf233b3b58345c7c11fedb346ab9ae",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620830263198,
+          "stop" : 1620830275187,
+          "duration" : 11989
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Bob1" ]
+      }, {
+        "name" : "Change info about the pet",
+        "uid" : "a4ee771da6d03b58",
+        "parentUid" : "6cdf233b3b58345c7c11fedb346ab9ae",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620830275273,
+          "stop" : 1620830276957,
+          "duration" : 1684
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Bob2" ]
+      }, {
+        "name" : "Change info about the pet",
+        "uid" : "2825c737c21cbbdb",
+        "parentUid" : "6cdf233b3b58345c7c11fedb346ab9ae",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620830276960,
+          "stop" : 1620830279081,
+          "duration" : 2121
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Bob3" ]
+      }, {
+        "name" : "Change info about the pet",
+        "uid" : "f13f5b77afd54975",
+        "parentUid" : "6cdf233b3b58345c7c11fedb346ab9ae",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620830279085,
+          "stop" : 1620830280767,
+          "duration" : 1682
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Bob4" ]
+      }, {
+        "name" : "Change info about the pet",
+        "uid" : "f6e773c86108c43a",
+        "parentUid" : "6cdf233b3b58345c7c11fedb346ab9ae",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620830280772,
+          "stop" : 1620830282461,
+          "duration" : 1689
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Bob5" ]
+      } ],
+      "uid" : "6cdf233b3b58345c7c11fedb346ab9ae"
+    } ],
+    "uid" : "e0b3b6b8c6482a76a602637eb94d2b63"
+  } ]
+}

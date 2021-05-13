@@ -1,0 +1,121 @@
+{
+  "7db7bac32901293723e336116cc66278" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f13f5b77afd54975",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nResponse body doesn't match expectation.\nExpected: The content to match the given JSON schema.\nerror: object has missing required properties ([\"tags\"])\n    level: \"error\"\n    schema: {\"loadingURI\":\"file:/C:/Users/User/IdeaProjects/TeamCityAllure/target/classes/PetSchema.json#\",\"pointer\":\"/definitions/Pet\"}\n    instance: {\"pointer\":\"\"}\n    domain: \"validation\"\n    keyword: \"required\"\n    required: [\"category\",\"id\",\"name\",\"photoUrls\",\"status\",\"tags\"]\n    missing: [\"tags\"]\n\n  Actual: {\"id\":9222968140498523764,\"category\":{\"id\":131231231,\"name\":\"Cats\"},\"name\":\"\\\"Bob4\\\"\",\"photoUrls\":[\"urls\"],\"status\":\"available\"}\n",
+      "time" : {
+        "start" : 1620830279085,
+        "stop" : 1620830280767,
+        "duration" : 1682
+      }
+    } ]
+  },
+  "3714083f260020dde9063fb45049c639" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2825c737c21cbbdb",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nResponse body doesn't match expectation.\nExpected: The content to match the given JSON schema.\nerror: object has missing required properties ([\"tags\"])\n    level: \"error\"\n    schema: {\"loadingURI\":\"file:/C:/Users/User/IdeaProjects/TeamCityAllure/target/classes/PetSchema.json#\",\"pointer\":\"/definitions/Pet\"}\n    instance: {\"pointer\":\"\"}\n    domain: \"validation\"\n    keyword: \"required\"\n    required: [\"category\",\"id\",\"name\",\"photoUrls\",\"status\",\"tags\"]\n    missing: [\"tags\"]\n\n  Actual: {\"id\":1,\"category\":{\"id\":131231231,\"name\":\"Cats\"},\"name\":\"\\\"Bob3\\\"\",\"photoUrls\":[\"urls\"],\"status\":\"available\"}\n",
+      "time" : {
+        "start" : 1620830276960,
+        "stop" : 1620830279081,
+        "duration" : 2121
+      }
+    } ]
+  },
+  "3f2af28830ee7c4f34234f6ed00b9c0a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e61e7ede897a24a0",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nResponse body doesn't match expectation.\nExpected: The content to match the given JSON schema.\nerror: object has missing required properties ([\"tags\"])\n    level: \"error\"\n    schema: {\"loadingURI\":\"file:/C:/Users/User/IdeaProjects/TeamCityAllure/target/classes/PetSchema.json#\",\"pointer\":\"/definitions/Pet\"}\n    instance: {\"pointer\":\"\"}\n    domain: \"validation\"\n    keyword: \"required\"\n    required: [\"category\",\"id\",\"name\",\"photoUrls\",\"status\",\"tags\"]\n    missing: [\"tags\"]\n\n  Actual: {\"id\":1,\"category\":{\"id\":131231231,\"name\":\"Cats\"},\"name\":\"\\\"Bob1\\\"\",\"photoUrls\":[\"urls\"],\"status\":\"available\"}\n",
+      "time" : {
+        "start" : 1620830263198,
+        "stop" : 1620830275187,
+        "duration" : 11989
+      }
+    } ]
+  },
+  "e2c548d3ef066e3e9e042761ae58b280" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c3228f4818ce9328",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620830262756,
+        "stop" : 1620830272672,
+        "duration" : 9916
+      }
+    } ]
+  },
+  "1513b580a250289b84949898900c848e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f6e773c86108c43a",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nResponse body doesn't match expectation.\nExpected: The content to match the given JSON schema.\nerror: object has missing required properties ([\"tags\"])\n    level: \"error\"\n    schema: {\"loadingURI\":\"file:/C:/Users/User/IdeaProjects/TeamCityAllure/target/classes/PetSchema.json#\",\"pointer\":\"/definitions/Pet\"}\n    instance: {\"pointer\":\"\"}\n    domain: \"validation\"\n    keyword: \"required\"\n    required: [\"category\",\"id\",\"name\",\"photoUrls\",\"status\",\"tags\"]\n    missing: [\"tags\"]\n\n  Actual: {\"id\":1,\"category\":{\"id\":131231231,\"name\":\"Cats\"},\"name\":\"\\\"Bob5\\\"\",\"photoUrls\":[\"urls\"],\"status\":\"available\"}\n",
+      "time" : {
+        "start" : 1620830280772,
+        "stop" : 1620830282461,
+        "duration" : 1689
+      }
+    } ]
+  },
+  "855bc76405b2eaec4ea304e4ad3082ed" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a4ee771da6d03b58",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nResponse body doesn't match expectation.\nExpected: The content to match the given JSON schema.\nerror: object has missing required properties ([\"tags\"])\n    level: \"error\"\n    schema: {\"loadingURI\":\"file:/C:/Users/User/IdeaProjects/TeamCityAllure/target/classes/PetSchema.json#\",\"pointer\":\"/definitions/Pet\"}\n    instance: {\"pointer\":\"\"}\n    domain: \"validation\"\n    keyword: \"required\"\n    required: [\"category\",\"id\",\"name\",\"photoUrls\",\"status\",\"tags\"]\n    missing: [\"tags\"]\n\n  Actual: {\"id\":2,\"category\":{\"id\":131231231,\"name\":\"Cats\"},\"name\":\"\\\"Bob2\\\"\",\"photoUrls\":[\"urls\"],\"status\":\"available\"}\n",
+      "time" : {
+        "start" : 1620830275273,
+        "stop" : 1620830276957,
+        "duration" : 1684
+      }
+    } ]
+  }
+}

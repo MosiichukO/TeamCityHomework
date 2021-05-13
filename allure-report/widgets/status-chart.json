@@ -1,0 +1,61 @@
+[ {
+  "uid" : "a4ee771da6d03b58",
+  "name" : "Change info about the pet",
+  "time" : {
+    "start" : 1620830275273,
+    "stop" : 1620830276957,
+    "duration" : 1684
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2825c737c21cbbdb",
+  "name" : "Change info about the pet",
+  "time" : {
+    "start" : 1620830276960,
+    "stop" : 1620830279081,
+    "duration" : 2121
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c3228f4818ce9328",
+  "name" : "Add new pet to the store",
+  "time" : {
+    "start" : 1620830262756,
+    "stop" : 1620830272672,
+    "duration" : 9916
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f6e773c86108c43a",
+  "name" : "Change info about the pet",
+  "time" : {
+    "start" : 1620830280772,
+    "stop" : 1620830282461,
+    "duration" : 1689
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f13f5b77afd54975",
+  "name" : "Change info about the pet",
+  "time" : {
+    "start" : 1620830279085,
+    "stop" : 1620830280767,
+    "duration" : 1682
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e61e7ede897a24a0",
+  "name" : "Change info about the pet",
+  "time" : {
+    "start" : 1620830263198,
+    "stop" : 1620830275187,
+    "duration" : 11989
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]
